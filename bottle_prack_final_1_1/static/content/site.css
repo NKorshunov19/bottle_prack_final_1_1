@@ -1,0 +1,435 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*Ограничение размера страницы*/
+
+/*Надпись текста*/
+.weather {
+    position: absolute;
+    width: 501px;
+    height: 55px;
+    left: 594px;
+    top: 69px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #314E88;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*Описание ТЗ*/
+.weather2text {
+    position: absolute;
+    width: 765px;
+    height: 718px;
+    left: 52px;
+    top: 213px;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 63px;
+    color: #000000;
+}
+/*Загрузка картинки*/
+.weather3 {
+    position: absolute;
+    width: 677px;
+    height: 418px;
+    left: 849px;
+    top: 303px;
+    background-image: url('Widget 3.png');
+}
+/*Шрифты для шапки*/
+.site {
+    position: absolute;
+    width: 137px;
+    height: 42px;
+    left: 52px;
+    top: 65px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.site2 {
+    position: absolute;
+    width: 313px;
+    height: 42px;
+    left: 235px;
+    top: 65px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+/*Надпись текста Поиск информации по погоде и загрузка картинки*/
+.findtext1 {
+    position: absolute;
+    width: 476px;
+    height: 100px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    top: 381px;
+    left: 583px;
+    color: #000000;
+}
+
+.loadimg {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 104px;
+    top: 364px;
+    
+    background-image: url('image 3.png');
+}
+/*Загрузка картинки и текст: анализ,  сортировка*/
+.loadimg2 {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 104px;
+    top: 717px;
+    background-image: url('image 1.png');
+}
+
+.visibletext {
+    position: absolute;
+    width: 844px;
+    height: 176px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+    top: 690px;
+    left: 583px;
+}
+
+.visibletext2 {
+    position: absolute;
+    width: 752px;
+    height: 53px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+    top: 1060px;
+    left: 583px;
+}
+
+.loadimg3 {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 104px;
+    top: 1070px;
+    background-image: url('image 2.png');
+}
+
+.container2 {
+    max-width: 1427px;
+    max-height: 1434px;
+}
+
+.loadimg4 {
+    position: absolute;
+    width: 381px;
+    height: 359px;
+    left: 529px;
+    top: 189px;
+    background: url("image 4.png");
+    border-radius: 163px;
+}
+
+.visibletext3 {
+    position: absolute;
+    width: 1023px;
+    height: 101px;
+    left: 333px;
+    top: 219px;
+    font-family: Nova Square;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 87px;
+    /* Gray 6 */
+
+    color: #F2F2F2;
+}
+/*Надписи для 3-го файла*/
+.autors {
+    position: absolute;
+    width: 152px;
+    height: 42px;
+    left: 1141px;
+    top: 69px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+/*Загрузка картинкок авторов*/
+.screen {
+    position: absolute;
+    width: 374px;
+    height: 406px;
+    left: 52px;
+    top: 189px;
+    background: url("Снимок экрана 2022-03-10 в 10.37 1.png");
+    border-radius: 163px;
+}
+/*Отображение текста*/
+.НикитаКоршунов {
+    position: absolute;
+    width: 241px;
+    height: 126px; 
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 63px;
+    color: #000000;
+}
+
+.verst {
+    position: absolute;
+    width: 298px;
+    height: 218px;
+    left: 94px;
+    top: 771px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.ЛюличевДимитрий {
+    position: absolute;
+    width: 261px;
+    height: 130px;
+    left: 627px;
+    top: 600px;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 63px;
+    color: #000000;
+}
+/*Отображение текста Помогал в верстке сайта*/
+.aa {
+    position: absolute;
+    width: 281px;
+    height: 115px;
+    left: 607px;
+    top: 765px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+}
+/*Загрузка картинки Снимок экрана*/
+.wq {
+    position: absolute;
+    width: 363.14px;
+    height: 359px;
+    left: 1043px;
+    top: 189px;
+    background: url('Снимок экрана 2022-03-10 в 10.32 1.png');
+    border-radius: 163px;
+}
+
+.игорьЛебедев {
+    position: absolute;
+    width: 241px;
+    height: 74px;
+    left: 1065px;
+    top: 619px;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 63px;
+    color: #000000;
+}
+
+.final {
+    position: absolute;
+    width: 287px;
+    height: 234px;
+    left: 1065px;
+    top: 741px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    transition: color .1s linear;
+    position: relative;
+}
+
+
+.conarct {
+    max-width: 1600px;
+   
+}
+.conaiarct {
+    position: absolute;
+    width: 100%;
+    height:1050px;
+    background: #506BCB;
+}
+.arcticleloadimage {
+    position: absolute;
+    width: 484px;
+    height: 560px;
+    left: 129px;
+    top: 162px;
+}
+
+
+.arcticledescription {
+    position: absolute;
+    width: 498px;
+    height: 185px;
+    left: 129px;
+    top: 722px;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.arcticlelinktowebsite {
+    position: absolute;
+    width: 187px;
+    height: 51px;
+    left: 219px;
+    top: 914px;
+    background: #D1D35D;
+}
+.arcticleloadimage1 {
+    position: absolute;
+    width: 485px;
+    height: 560px;
+    left: 885px;
+    top: 162px;
+}
+.arcticledescription1 {
+    position: absolute;
+    width: 477px;
+    height: 195px;
+    left: 893px;
+    top: 722px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.arcticlelinktowebsite1 {
+    position: absolute;
+    width: 187px;
+    height: 51px;
+    left: 945px;
+    top: 909px;
+    background: #D1D35D;
+}
