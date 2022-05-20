@@ -41,7 +41,7 @@ def contact():
 @route('/product')
 @view('about')
 def about():
-    """Renders the about page."""
+    
     return dict(
         title='About',
         message='Your application description page.',
