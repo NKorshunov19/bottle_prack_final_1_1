@@ -1,5 +1,7 @@
-% rebase('layout.tpl',  title=title, year=year)
+% rebase('layout.tpl',  title=title, year=year, datausers = datausers)
 
+
+<!--Шаблон обратная свзяь -->
 <h4> Ждем ваши предложения и рекомендации </h4>
 
 
@@ -7,23 +9,29 @@
 <div class="forma">
     <div class="form-at">
         <div class="validate-input-at w-50" data-validate="Обязательное поле">
-            <input class="input-at" type="text" name="name-at" id="" placeholder="Ваше имя" />
+            <input class="input-at" type="text"  name = "NAME" placeholder="Ваше имя" />
             <span class="focus-input-at"></span>
         </div>
         <div class="validate-input-at w-50" data-validate="Обязательное поле">
-            <input class="input-at" type="text" name="email-at" placeholder="Ваш телефон" />
+            <input class="input-at" type="text" name = "EMAIL" placeholder="Ваша электронная почта" />
             <span class="focus-input-at"></span>
         </div>
         <div class="validate-input-at" data-validate="Обязательное поле">
-            <textarea class="input-at" name="message-at" placeholder="Ваше сообщение"></textarea>
+            <textarea class="input-at" name = "MESSAGE"  placeholder="Ваше сообщение"></textarea>
             <span class="focus-input-at"></span>
         </div>
         <input type="hidden" name="subject-at" value="Тема формы">
         <button id="submit-at" class="form-at-btn">Отправить</button>
+
     </div>
     <div class="result-at"></div>
 </div>
+<div class = "rectanglefinal">
+
+</div>
 </form>
+
+
 
 <style>
 ::-webkit-input-placeholder {font-size: 16px;}
@@ -224,5 +232,14 @@ input.input-at:focus {
         visibility: visible;
         opacity: 1;
     }
+.rectanglefinal{
+    position: absolute;
+    width: 405px;
+    height: 268px;
+    left: 1064px;
+    top: 659px;
+
+    background: #3ABD57;
+    border-radius: 156px;
 }
 </style>

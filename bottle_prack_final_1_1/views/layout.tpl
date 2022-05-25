@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!--Реализация шапки -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} - My Bottle Application</title>
@@ -22,6 +23,7 @@
                     <a class="nav__link" href="/product">Функции продукта </a>
                     <a class="nav__link" href="/articles"> Статьи </a>
                     <a class="nav__link" href="/forms"> Обратная связь </a>
+                    <a class="nav__link" href="/formsdata"> Отзывы </a>
                 </nav>
             </div>
         </div>

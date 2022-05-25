@@ -19,7 +19,7 @@ def home():
 def contact():
     with open('data.json') as json_file:
         data = json.load(json_file)
-    spicok = []
+    
     for p in data["arcticles1"]:
        resualt = p["description"]
        resualt1 = p["photo"]    
@@ -52,8 +52,35 @@ def about():
 @view('forms')
 def forms():
     """Renders the about page."""
+
+
+
+    
+    with open('newData.txt', 'r') as f:
+        nums = f.read().splitlines()
+   
+    print(nums)
+    
     return dict(
         title='About',
         message='Your application description page.',
-        year=datetime.now().year
+        year=datetime.now().year,
+        datausers = nums
+    )
+
+@route('/formsdata')
+@view('formsdata')
+def formsdata():
+    """Renders the about page."""
+
+    with open('newData.txt', 'r') as f:
+        nums = f.read().splitlines()
+   
+    print(nums)
+    
+    return dict(
+        title='About',
+        message='Your application description page.',
+        year=datetime.now().year,
+        datausers = nums
     )

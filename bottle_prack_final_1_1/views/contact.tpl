@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-
+<!-- —читывание данных из файла JSON и отображение данных в html тэгах -->
 <div class = "conarct">
 <div class = "conaiarct"> 	
 	<p class = "arcticledescription"> {{visible}} </p>
