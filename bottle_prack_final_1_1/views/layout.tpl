@@ -19,9 +19,9 @@
             <div class="header__inner">
                 <nav class="nav">
                     <a class = "nav__link" href="/"> Weather Aggregator  </a>
-                    <a class="nav__link" href="/product"> Product Functions </a>
-                    <a class="nav__link" href="/articles"> Articles </a>
-                    <a class="nav__link" href="/forms"> Forms </a>
+                    <a class="nav__link" href="/product">Функции продукта </a>
+                    <a class="nav__link" href="/articles"> Статьи </a>
+                    <a class="nav__link" href="/forms"> Обратная связь </a>
                 </nav>
             </div>
         </div>
